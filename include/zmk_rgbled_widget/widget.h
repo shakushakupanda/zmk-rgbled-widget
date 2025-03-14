@@ -12,6 +12,5 @@ void indicate_battery(void);
 void indicate_connectivity(void);
 #endif
 
-#if !IS_ENABLED(CONFIG_ZMK_SPLIT) || IS_ENABLED(CONFIG_ZMK_SPLIT_ROLE_CENTRAL)
 void indicate_layer(void);
-#endif
+
